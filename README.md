@@ -1,3 +1,5 @@
-Plantilla Base (For Joomla 3.x with Twitter Bootstrap 2.3.2)
-============================================================
+Plantilla Base 
+==============
+
+Created from protostar template, and customized for Jordi Sorts (http://www.websdefutbol.com)
 
