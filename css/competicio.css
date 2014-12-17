@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'digital';
+    src: url('../fonts/ds-digital_bold-webfont.eot');
+    src: url('../fonts/ds-digital_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ds-digital_bold-webfont.woff') format('woff'),
+         url('../fonts/ds-digital_bold-webfont.ttf') format('truetype'),
+         url('../fonts/ds-digital_bold-webfont.svg#DSDigitalBold') format('svg');
+}
+
+.link-default:link, 
+.link-default:visited {
+    color: #333 !important;
+}
+
+#jb-navbar > .navbar-inner > .nav > li > a {
+    color: #555 !important;
+    font-family: "Lato",sans-serif;
+}
+
+.classificacio th {
+    background-color: #14A2D4;
+    border-bottom: 1px solid #FFE800;
+    color: white;
+}
+
+.table {
+    font-size: 1em;
+}
+
+.cap-partits {
+    background-color: #14A2D4;
+    color: white;
+    border-bottom: 3px solid #FFE800;
+}
+
+.titols {
+    padding: 10px;
+}
+
+.cap-partits a {
+    color: #FFE800 !important;
+}
+
+.voltant {
+    border: 3px solid #14A2D4;
+    margin-bottom: 10px;
+}
+
+.mida-titol {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h4.resultat {
+    font-size: 2.5em !important;
+}
+
+.match {
+    line-height: 30px;
+}
+
+.team,
+._2_team {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.team_away,
+.team_home {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.one {
+    margin-right: 5px;
+    padding: 3px 7px !important;
+}
+
+.two {
+    padding: 3px 7px !important;
+}
+
+.score.article {
+    border: none;
+    border-radius: 4px;
+}
+
+div.row-fluid h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #555;
+    font-size: 1.1em !important;
+}
+
+div.row-fluid h4.resultat {
+    font-family: 'digital', sans-serif;
+    font-size: 3em !important;
+    line-height: 0px !important;
+    padding: 20px 0 10px 0 !important;
+    font-weight: normal !important;
+}
+
+.link-blue:link, 
+.link-blue:visited,
+.team_home {
+    color: #14A2D4 !important;
+}
+
+.link-red:link, 
+.link-red:visited,
+.team_away {
+    color: #e74c3c !important;
+}
+
+.num-jugador {
+    font-family: 'digital', sans-serif;
+    font-size: 1.5em;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>CE Roda de Ter</name>
+	<version>1.0</version>
+	<creationDate>Octubre 2014</creationDate>
+	<author>Jordi Sorts</author>
+	<authorEmail>info@websdefutbol.com</authorEmail>
+	<copyright>Copyright (C) 2014 Jordi Sorts</copyright>
+	<description>Plantilla per el club Centre Esportiu Roda</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+	<positions>
+		<position>debug</position>
+		<position>navigation</position>
+		<position>esquerra</position>
+		<positions>dreta</positions>
+		<position>subnavigation</position>
+		<position>top-content</position>
+		<position>footer</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="googleFont"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Google Font"
+					description="Google Font"
+				>
+					<option value="1">SI</option>
+					<option value="0">NO</option>
+				</field>
+
+				<field name="googleFontName" class="" type="text" default="Open+Sans"
+					label="Tipus de Google Font"
+					description="Tipus de Google Font" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn-info,
+.label-info,
+.label-info[href], 
+.badge-info[href] {
+    background-image: none;
+    background-color: #14A2D4;
+    border: none;
+    color: white !important;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.label-info[href]:hover, 
+.badge-info[href]:focus {
+    background-color: #FFE800;
+    border: none;
+    color: black !important;
+}
+
+.btn-success {
+    background-image: none;
+    background-color: #1BBC9B !important;
+    border: none;
+}
+
+.btn-warning {
+    background-image: none;
+    background-color: #F2784B !important;
+    border: none;
+}
+
+.btn-primary {
+    background-image: none;
+    background-color: #5C97BF !important;
+    border: none;
+}
+
+.btn-danger {
+    background-image: none;
+    background-color: #E74C3C !important;
+    border: none;
+}
