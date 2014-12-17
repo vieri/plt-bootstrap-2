@@ -1,5 +1,5 @@
 Plantilla Base 
 ==============
 
-Created from protostar template, and customized for Jordi Sorts (http://www.websdefutbol.com)
+Created from protostar template, and customized by Jordi Sorts (http://www.websdefutbol.com)
 
