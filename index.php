@@ -26,15 +26,6 @@ $task     = $app->input->getCmd('task', '');
 $itemid   = $app->input->getCmd('Itemid', '');
 $sitename = $app->get('sitename');
 
-if($task == "edit" || $layout == "form" )
-{
-	$fullWidth = 1;
-}
-else
-{
-	$fullWidth = 0;
-}
-
 // Add JavaScript Frameworks
 JHtml::_('bootstrap.framework');
 $doc->addScript('templates/' . $this->template . '/js/template.js');
@@ -46,9 +37,6 @@ $doc->addStyleSheet('templates/' . $this->template . '/css/font-awesome.css');
 $doc->addStyleSheet('templates/' . $this->template . '/css/buttons.css');
 $doc->addStyleSheet('templates/' . $this->template . '/css/competicio.css');
 $doc->addStyleSheet('templates/' . $this->template . '/css/ceroda.css');
-
-// Load optional RTL Bootstrap CSS
-JHtml::_('bootstrap.loadCss', false, $this->direction);
 
 // Adjusting content width
 if ($this->countModules('position-7') && $this->countModules('position-8'))
@@ -68,20 +56,6 @@ else
 	$span = "span12";
 }
 
-// Logo file or site title param
-if ($this->params->get('logoFile'))
-{
-	$logo = '<img src="' . JUri::root() . $this->params->get('logoFile') . '" alt="' . $sitename . '" />';
-}
-elseif ($this->params->get('sitetitle'))
-{
-	$logo = '<span class="site-title" title="' . $sitename . '">' . htmlspecialchars($this->params->get('sitetitle')) . '</span>';
-}
-else
-{
-	$logo = '<span class="site-title" title="' . $sitename . '">' . $sitename . '</span>';
-}
-?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
@@ -101,13 +75,7 @@ else
 	<![endif]-->
 </head>
 
-<body class="site <?php echo $option
-	. ' view-' . $view
-	. ($layout ? ' layout-' . $layout : ' no-layout')
-	. ($task ? ' task-' . $task : ' no-task')
-	. ($itemid ? ' itemid-' . $itemid : '')
-	. ($params->get('fluidContainer') ? ' fluid' : '');
-?>">
+<body>
 
 	<!-- Body -->
 	<div class="body">
